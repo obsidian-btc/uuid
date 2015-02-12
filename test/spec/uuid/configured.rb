@@ -12,8 +12,8 @@ describe ConfiguredRandomUUID::Example do
       UUID::Random.configure subject
     end
 
-    specify "Receiver has a local clock" do
-      expect(clock).to be_instance_of(UUID::Random)
+    specify "Receiver has a random UUID generator" do
+      expect(random_uuid).to be_instance_of(UUID::Random)
     end
   end
 end
