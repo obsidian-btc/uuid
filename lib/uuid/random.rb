@@ -5,7 +5,8 @@ module UUID
     end
 
     def self.get
-      java.util.UUID.randomUUID()
+      uuid = java.util.UUID.randomUUID()
+      UUID.format(uuid)
     end
 
     def self.configure(receiver)
