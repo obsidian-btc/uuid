@@ -1,7 +1,5 @@
 require_relative 'uuid_init'
 
-puts UUID.random
-
 class Thing
   attr_accessor :random_uuid
 

@@ -1,8 +1,4 @@
 module UUID
-  def self.random
-    Random.get
-  end
-
   class Random
     def get
       self.class.get
