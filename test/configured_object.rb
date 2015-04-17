@@ -1,4 +1,4 @@
-require_relative 'uuid_init'
+require_relative 'test_init'
 
 class Thing
   attr_accessor :random_uuid
