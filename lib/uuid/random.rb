@@ -9,7 +9,7 @@ module UUID
     end
 
     def self.raw
-      java.util.UUID.randomUUID()
+      SecureRandom.uuid
     end
 
     def self.configure(receiver)
