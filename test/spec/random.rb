@@ -10,4 +10,10 @@ describe UUID::Random do
       UUID::Random.new.get
     end
   end
+
+  context "Root interface" do
+    specify "Random UUID" do
+      UUID.random
+    end
+  end
 end
