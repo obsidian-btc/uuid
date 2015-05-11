@@ -14,7 +14,7 @@ module UUID
 
     def self.configure(receiver)
       instance = new
-      receiver.random_uuid = instance
+      receiver.uuid = instance
       instance
     end
   end

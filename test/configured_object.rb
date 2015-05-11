@@ -1,10 +1,10 @@
 require_relative 'test_init'
 
 class Thing
-  attr_accessor :random_uuid
+  attr_accessor :uuid
 
   def uuid
-    random_uuid.get
+    uuid.get
   end
 
   def self.build
