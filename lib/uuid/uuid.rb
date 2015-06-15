@@ -6,4 +6,8 @@ module UUID
   def self.random
     Random.get
   end
+
+  def self.zero
+    '00000000-0000-0000-0000-000000000000'
+  end
 end
